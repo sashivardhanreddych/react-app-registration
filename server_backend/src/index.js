@@ -17,6 +17,7 @@ con.once("open",function(){
 })
 
 app.get('/',(req,res)=>{
+    
     res.send("Get Request")
 })
 
